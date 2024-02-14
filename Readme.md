@@ -6,9 +6,13 @@ Find most active cookie grouping date from log files
 ## Project Details
 
 -Get log file path from command line with jar path and date
+
 -Parse log file data
+
 -Group log file data with date
+
 -Find most active data from map
+
 
 ## Technologies
 
