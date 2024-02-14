@@ -27,7 +27,7 @@ class MostActiveCookieApplicationTests {
 
     @Test
     public void findMostActiveData() throws GenericExeption {
-        CookieData cookieData = new CookieData("src/log/cookie.csv", parse("2018-12-09"));
+        CookieData cookieData = new CookieData("src/log/cookie-log.csv", parse("2018-12-09"));
         List<CookieFile> cookieFileList = cookieFileExecutor.readData(cookieData);
         List<String> mostActiveDataList = cookieFileExecutor.procesData(cookieFileList, cookieData);
         cookieFileExecutor.printData(mostActiveDataList);

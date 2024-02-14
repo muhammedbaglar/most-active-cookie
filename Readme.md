@@ -34,4 +34,4 @@ fbcn5UAVanZf6UtG,2018-12-08T09:30:00+00:00
 
 Run 'mvn clean install'  before running below
 
-java -jar target\most-active-cookie-0.0.1-SNAPSHOT.jar -f src\logs\cookie.csv -d 2018-12-09
+java -jar target\most-active-cookie-0.0.1-SNAPSHOT.jar -f src\log\cookie-log.csv -d 2018-12-09
