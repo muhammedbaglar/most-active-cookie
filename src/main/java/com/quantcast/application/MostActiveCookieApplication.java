@@ -15,8 +15,12 @@ public class MostActiveCookieApplication  implements CommandLineRunner {
 
     @Override
     public void run(String[] args) {
-        cookieFileExecutor = new CookieFileExecutor();
-        cookieFileExecutor.executeProcess(args);
+        try {
+            cookieFileExecutor = new CookieFileExecutor();
+            cookieFileExecutor.executeProcess(args);
+        }finally {
+            System.exit(0);
+        }
     }
 
 }
